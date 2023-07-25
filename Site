@@ -1,0 +1,529 @@
+<html>
+
+<head>
+  <title>BALKANIA Firework Factory</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #FFF;
+      line-height: 1.6;
+    }
+.header {
+  padding: 50px 20px; 
+  text-align: center;
+}
+
+.header img {
+  max-width: 200px;
+  margin-bottom: 20px; 
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-bottom: 30px; 
+}
+
+.header p {
+  font-size: 18px;
+  font-style: italic;
+  color: #FFF;
+}
+
+    .navigation {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; 
+}
+
+    }
+
+    .navigation ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .navigation li a {
+      text-decoration: none;
+      color: #FFF;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .content {
+	  <div id="home">
+	  <!-- Content of the home section -->
+	</div>
+
+	<div id="about">
+	  <!-- Content of the about section -->
+	</div>
+
+	<div id="gallery">
+	  <!-- Content of the gallery section -->
+	</div>
+
+	<div id="products">
+	  <!-- Content of the products section -->
+	</div>
+
+	<div id="brochure">
+	  <!-- Content of the brochure section -->
+	</div>
+
+	<div id="order">
+	  <!-- Content of the order section -->
+	</div>
+
+	<div id="contact">
+ 	 <!-- Content of the contact section -->
+	</div>
+
+	}
+
+    .navigation li a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #333;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    /* Footer styles */
+    .footer {
+      background-color: transparent;
+      color: #FFF;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+    }
+
+    .hero-section {
+      position: relative;
+      background-color: transparent;
+      padding: 100px 0;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.6;
+      z-index: -1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-content h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #FFF;
+      margin-bottom: 20px;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      color: #FFF;
+      margin-bottom: 40px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #333;
+      color: #FFF;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #000;
+    }
+
+    .gallery-section {
+      text-align: center;
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery-section img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-section {
+      background-color: transparent;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #FFF;
+      margin-bottom: 20px;
+    }
+
+    .product-section {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.6;
+      z-index: -1;
+    }
+
+    .product-content {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .product {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .product h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .product p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .contact-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #FFA500;
+      color: #FFF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #FF4500;
+    }
+    <style>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exploding Fireworks</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    canvas {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="fireworksCanvas"></canvas>
+
+  <script>
+    const canvas = document.getElementById('fireworksCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    function createParticle(x, y, color) {
+      const particle = {
+        x,
+        y,
+        color,
+        radius: 2 + Math.random() * 2,
+        angle: Math.random() * Math.PI * 2,
+        speed: 2 + Math.random() * 3,
+        opacity: 1,
+        decay: 0.03
+      };
+      particles.push(particle);
+    }
+
+    function explode(x, y) {
+      const colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#FF00FF', '#00FFFF'];
+      for (let i = 0; i < 50; i++) {
+        const color = colors[Math.floor(Math.random() * colors.length)];
+        createParticle(x, y, color);
+      }
+    }
+
+    function createRandomFirework() {
+      const x = Math.random() * canvas.width;
+      const y = Math.random() * canvas.height;
+      explode(x, y);
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Add the blur effect
+      ctx.shadowColor = 'rgba(255, 255, 255, 0.8)';
+      ctx.shadowBlur = 5;
+
+      for (let i = 0; i < particles.length; i++) {
+        const p = particles[i];
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = p.opacity;
+        ctx.fill();
+        ctx.closePath();
+
+        p.x += Math.cos(p.angle) * p.speed;
+        p.y += Math.sin(p.angle) * p.speed;
+        p.opacity -= p.decay;
+
+        if (p.opacity <= 0) {
+          particles.splice(i, 1);
+          i--;
+        }
+      }
+
+      // Create a random firework more frequently (5% chance)
+      if (Math.random() < 0.05) {
+        createRandomFirework();
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    canvas.addEventListener('click', (event) => {
+      const rect = canvas.getBoundingClientRect();
+      const mouseX = event.clientX - rect.left;
+      const mouseY = event.clientY - rect.top;
+      explode(mouseX, mouseY);
+    });
+
+    draw();
+  </script>
+</body>
+</html>
+
+    </style>
+</head>
+<body>
+  <header class="header">
+    <img src="https://i.imgur.com/LPKQ7Rc.png" alt="BALKANIA Firework Factory Logo">
+    <h1>BALKANIA</h1>
+    <p>Fireworks</p>
+  </header>
+ <nav class="navigation">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#brochure">Brochure</a></li>
+    <li><a href="#order">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  <div class="hero-section">
+    <video class="hero-video" src="https://i.imgur.com/UiNWRDF.mp4" autoplay loop muted></video>
+    <div class="hero-content">
+      <h1>Welcome to BALKANIA</h1>
+      <p>Ignite the sky with beauty</p>
+      <a class="cta-button" href="#products">Explore Products</a>
+    </div>
+  </div>
+  <div class="content">
+    <h2>About Us</h2>
+    <p>We are a team of professionals who prioritize safety and strive for the best quality products. The Balkan history is full of pyrotechnic production, mostly arms, but this is the first large-scale factory to emerge in Serbia and the Balkans.
+      Our mission is to shine a vibrant light on the rich heritage of this industry and raise awareness about its endangered status in our region. Through our exceptional firework creations, we aim to ignite hearts and minds, inspiring people to recognize the beauty and significance of this timeless art form.
+
+      We strive to craft products that speak volumes, blending artistry, innovation, and safety seamlessly. By experiencing our mesmerizing displays, we hope to awaken a deep appreciation for the cultural significance and historic roots of pyrotechnics in our Balkan heritage.
+
+      However, we cannot achieve this vision alone. We wholeheartedly call upon our community to support us in this endeavor. Together, we can safeguard the future of this cherished tradition and ensure that it continues to light up the night skies for generations to come.
+
+      Join us on this extraordinary journey and become ambassadors of our cause. By spreading the word, celebrating our work, and experiencing the magic of our fireworks, you play a vital role in preserving this extraordinary legacy. Let us come together, hand in hand, and create unforgettable memories that will stand the test of time.</p>
+  </div>
+  <div class="gallery-section">
+    Gallery
+    <!-- Image placeholders to be filled later -->
+    <img src="https://images.pexels.com/photos/634694/pexels-photo-634694.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Fireworks Image">
+    <img src="https://images.pexels.com/photos/973590/pexels-photo-973590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Fireworks Image">
+    <img src="https://images.pexels.com/photos/48247/fireworks-celebration-bright-pink-48247.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="Fireworks Image">
+    <img src="https://images.pexels.com/photos/40663/fireworks-rocket-new-year-s-day-new-year-s-eve-40663.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Fireworks Image">
+    <img src="https://images.pexels.com/photos/634693/pexels-photo-634693.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+    <img src="#" alt="Fireworks Image">
+  </div>
+  <div class="product-section" id="products">
+    <video class="product-video" src="https://i.imgur.com/SSK0rfL.mp4" autoplay loop muted></video>
+    <div class="product-content">
+      <h2>Products</h2>
+      <div class="product">
+        <h3>Product 1</h3>
+        <p>Description of Product 1</p>
+      </div>
+      <div class="product">
+        <h3>Product 2</h3>
+        <p>Description of Product 2</p>
+      </div>
+      <div class="product">
+        <h3>Product 3</h3>
+        <p>Description of Product 3</p>
+      </div>
+      <div class="product">
+        <h3>Product 4</h3>
+        <p>Description of Product 4</p>
+      </div>
+      <div class="product">
+        <h3>Product 5</h3>
+        <p>Description of Product 5</p>
+      </div>
+      <div class="product">
+        <h3>Product 6</h3>
+        <p>Description of Product 6</p>
+      </div>
+      <div class="product">
+        <h3>Product 7</h3>
+        <p>Description of Product 7</p>
+      </div>
+      <div class="product">
+        <h3>Product 8</h3>
+        <p>Description of Product 8</p>
+      </div>
+      <div class="product">
+        <h3>Product 9</h3>
+        <p>Description of Product 9</p>
+      </div>
+    </div>
+  </div>
+  <div class="content" id="brochure">
+    <h2>Brochure</h2>
+    <p>Download our brochure presentation.</p>
+  </div>
+  <div class="contact-section" id="contact">
+    <h2>Contact</h2>
+    <p>BALKANIA L.T.D. DOO<br>Address: Jovana Cvijića 29, Koceljeva, Serbia<br>Email: office@balkania.rs<br>Phone: +38115558311</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11598.76718388473!2d19.917621209034215!3d44.46558577060939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759e752f002acaf%3A0xf965214d27e941a1!2sJovana%20Cviji%C4%87a%2029%2C%20Koceljeva%2C%20Serbia!5e0!3m2!1sen!2sus!4v1677781981981!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="contact-form">
+      <form action="/submit_form" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <input type="submit" value="SUBMIT">
+      </form>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2023 BALKANIA Firework Factory. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
